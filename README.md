@@ -1,72 +1,89 @@
-#🚀 Internship Project at NIT Calicut - Agricultural Drone Pathfinding and Obstacle Detection
-National Institute of Technology, Calicut, India
-Intern
-June 2024 – July 2024
-Calicut, India
+# 🚀 **Internship Project at NIT Calicut - Agricultural Drone Pathfinding and Obstacle Detection**  
+### **National Institute of Technology, Calicut, India**  
+**Intern**  
+**June 2024 – July 2024**  
+**Calicut, India**
 
-#📝 Project Overview:
+---
+
+### 📝 **Project Overview:**  
 During my internship at NIT Calicut, I worked on the development of an advanced drone navigation and obstacle detection system tailored for agricultural applications. The main objectives of the project were to:
 
-Enable autonomous navigation of drones through agricultural terrains for various tasks such as mango plucking, pest detection in palm trees, and scaring away monkeys.
-Implement advanced pathfinding algorithms like RRT* and Dijkstra's Algorithm to navigate obstacles efficiently and ensure safe, collision-free operation.
-Leverage Lidar sensors for real-time obstacle detection, ensuring the drones can safely navigate even in dynamic environments with both static and moving obstacles.
-🎯 Project Objectives:
-Mango Plucking Automation:
+- **Enable autonomous navigation of drones** through agricultural terrains for various tasks such as mango plucking, pest detection in palm trees, and scaring away monkeys.  
+- **Implement advanced pathfinding algorithms** like **RRT*** and **Dijkstra's Algorithm** to navigate obstacles efficiently and ensure safe, collision-free operation.
+- **Leverage Lidar sensors** for real-time obstacle detection, ensuring the drones can safely navigate even in dynamic environments with both static and moving obstacles.
 
-Develop a path planning algorithm to allow drones to navigate to mango trees, identify ripe mangoes using vision systems, and pluck them without damaging the fruit.
-Use RRT* for fast environment exploration and Dijkstra’s Algorithm to calculate the most efficient route to pluck mangoes.
-Palm Tree Pest Detection:
+---
 
-Implement image processing algorithms for the drones to capture high-resolution images of palm trees to detect pests such as the red palm weevil.
-Process these images using MATLAB to identify early signs of pest infestations and send real-time alerts for pest control.
-Monkey Scaring System:
+### 🎯 **Project Objectives:**
 
-Develop an autonomous system for drones to patrol farms and scare away monkeys by emitting distress sounds or ultrasonic frequencies.
-Use Dijkstra’s Algorithm for path optimization to ensure efficient patrol routes without unnecessary overlap.
-Obstacle Detection and Avoidance:
+1. **Mango Plucking Automation:**  
+   - Develop a path planning algorithm to allow drones to navigate to mango trees, identify ripe mangoes using vision systems, and pluck them without damaging the fruit.  
+   - Use **RRT*** for fast environment exploration and **Dijkstra’s Algorithm** to calculate the most efficient route to pluck mangoes.
 
-Use Lidar sensors for real-time obstacle detection and avoid collisions with both static and moving obstacles such as trees, power lines, and workers in the field.
-Implement a dynamic path recalibration system using RRT* and Dijkstra’s Algorithm to continuously adjust the drone’s route as obstacles are detected.
-🛠 Technologies and Algorithms Used:
-🔧 ROS (Robot Operating System):
-For drone control, communication, and integration with sensors, ensuring smooth operation and coordination between drones.
+2. **Palm Tree Pest Detection:**  
+   - Implement image processing algorithms for the drones to capture high-resolution images of palm trees to detect pests such as the red palm weevil.  
+   - Process these images using **MATLAB** to identify early signs of pest infestations and send real-time alerts for pest control.
 
-📡 Lidar Sensors:
-Used for real-time environmental scanning to detect obstacles (both static and dynamic), enabling safe navigation.
+3. **Monkey Scaring System:**  
+   - Develop an autonomous system for drones to patrol farms and scare away monkeys by emitting distress sounds or ultrasonic frequencies.  
+   - Use **Dijkstra’s Algorithm** for path optimization to ensure efficient patrol routes without unnecessary overlap.
 
-📊 MATLAB:
-Employed for image processing and analysis of captured data for pest detection, including object recognition and anomaly detection in palm trees.
+4. **Obstacle Detection and Avoidance:**  
+   - Use **Lidar sensors** for real-time obstacle detection and avoid collisions with both static and moving obstacles such as trees, power lines, and workers in the field.  
+   - Implement a dynamic path recalibration system using **RRT*** and **Dijkstra’s Algorithm** to continuously adjust the drone’s route as obstacles are detected.
 
-🧠 Pathfinding Algorithms:
+---
 
-RRT* (Rapidly-exploring Random Trees) for fast exploration of the environment and collision-free path planning.
-Dijkstra’s Algorithm for calculating the shortest path, ensuring the most efficient route for task completion.
-📹 Video Demonstration:
+### 🛠 **Technologies and Algorithms Used:**
+
+- **🔧 ROS (Robot Operating System):**  
+  For drone control, communication, and integration with sensors, ensuring smooth operation and coordination between drones.  
+
+- **📡 Lidar Sensors:**  
+  Used for real-time environmental scanning to detect obstacles (both static and dynamic), enabling safe navigation.  
+
+- **📊 MATLAB:**  
+  Employed for **image processing** and analysis of captured data for pest detection, including object recognition and anomaly detection in palm trees.  
+
+- **🧠 Pathfinding Algorithms:**  
+  - **RRT*** (Rapidly-exploring Random Trees) for fast exploration of the environment and collision-free path planning.  
+  - **Dijkstra’s Algorithm** for calculating the shortest path, ensuring the most efficient route for task completion.
+
+---
+
+### 📹 **Video Demonstration:**
+
 The project features a demonstration video where three drones are shown performing the following tasks autonomously:
+- Navigating complex environments with obstacles.
+- Detecting and avoiding both static and moving obstacles using Lidar.
+- Plucking ripe mangoes, performing pest detection, and scaring away monkeys without collisions.
+- Returning to the starting point safely by recalculating paths in real-time.
 
-Navigating complex environments with obstacles.
-Detecting and avoiding both static and moving obstacles using Lidar.
-Plucking ripe mangoes, performing pest detection, and scaring away monkeys without collisions.
-Returning to the starting point safely by recalculating paths in real-time.
-Video Link: [Add Link Here]
+**Video Link:** [https://drive.google.com/file/d/1eNeNyaK9jrCcd8OTXn3WhCDKSrINB4fq/view?usp=sharing]
 
-#⚙️ System Workflow:
-Path Planning:
-The drone receives destination coordinates and plots a path using RRT*, considering both static and dynamic obstacles.
+---
 
-Obstacle Detection:
-As the drone moves, Lidar sensors detect obstacles in its path. The system adjusts the route in real-time to avoid collisions.
+### ⚙️ **System Workflow:**
 
-Pest Detection:
-The drone captures high-resolution images of palm trees, which are processed using MATLAB for pest detection. Alerts are sent to the operator if pests are detected.
+1. **Path Planning:**  
+   The drone receives destination coordinates and plots a path using **RRT***, considering both static and dynamic obstacles.  
+   
+2. **Obstacle Detection:**  
+   As the drone moves, Lidar sensors detect obstacles in its path. The system adjusts the route in real-time to avoid collisions.
 
-Monkey Scaring:
-The drone autonomously patrols the farm area, using Dijkstra’s Algorithm to find the most efficient patrol route and emits distress signals to scare away monkeys.
+3. **Pest Detection:**  
+   The drone captures high-resolution images of palm trees, which are processed using **MATLAB** for pest detection. Alerts are sent to the operator if pests are detected.
 
-Return Navigation:
-Upon completing the task, the drone recalculates the optimal return path, avoiding previously encountered obstacles and ensuring a collision-free return.
+4. **Monkey Scaring:**  
+   The drone autonomously patrols the farm area, using **Dijkstra’s Algorithm** to find the most efficient patrol route and emits distress signals to scare away monkeys.
 
-#🏆 Achievements:
+5. **Return Navigation:**  
+   Upon completing the task, the drone recalculates the optimal return path, avoiding previously encountered obstacles and ensuring a collision-free return.
+
+---
+
+### 🏆 **Achievements:**.
 Successfully implemented a multi-purpose drone navigation system capable of performing complex agricultural tasks.
 Mango plucking: Developed a system to pluck ripe mangoes without causing damage to the fruit.
 Pest detection: Created a reliable method for detecting pests in palm trees using image processing.
