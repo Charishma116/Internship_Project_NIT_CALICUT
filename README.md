@@ -1,10 +1,10 @@
-🚀 Internship Project at NIT Calicut - Agricultural Drone Pathfinding and Obstacle Detection
+#🚀 Internship Project at NIT Calicut - Agricultural Drone Pathfinding and Obstacle Detection
 National Institute of Technology, Calicut, India
 Intern
 June 2024 – July 2024
 Calicut, India
 
-📝 Project Overview:
+#📝 Project Overview:
 During my internship at NIT Calicut, I worked on the development of an advanced drone navigation and obstacle detection system tailored for agricultural applications. The main objectives of the project were to:
 
 Enable autonomous navigation of drones through agricultural terrains for various tasks such as mango plucking, pest detection in palm trees, and scaring away monkeys.
@@ -50,7 +50,7 @@ Plucking ripe mangoes, performing pest detection, and scaring away monkeys witho
 Returning to the starting point safely by recalculating paths in real-time.
 Video Link: [Add Link Here]
 
-⚙️ System Workflow:
+#⚙️ System Workflow:
 Path Planning:
 The drone receives destination coordinates and plots a path using RRT*, considering both static and dynamic obstacles.
 
@@ -66,7 +66,7 @@ The drone autonomously patrols the farm area, using Dijkstra’s Algorithm to fi
 Return Navigation:
 Upon completing the task, the drone recalculates the optimal return path, avoiding previously encountered obstacles and ensuring a collision-free return.
 
-🏆 Achievements:
+#🏆 Achievements:
 Successfully implemented a multi-purpose drone navigation system capable of performing complex agricultural tasks.
 Mango plucking: Developed a system to pluck ripe mangoes without causing damage to the fruit.
 Pest detection: Created a reliable method for detecting pests in palm trees using image processing.
@@ -76,7 +76,7 @@ Obstacle Avoidance: Ensured the drones could navigate safely and autonomously in
 AI Integration: Incorporate AI models for more intelligent and adaptive decision-making in obstacle avoidance and task prioritization.
 Data Analytics: Utilize Big Data techniques to analyze patterns in drone performance and improve operational efficiency.
 IoT Integration: Incorporate IoT-based monitoring systems for continuous data collection and analysis of drone performance during agricultural tasks.
-📸 Project Media:
+#📸 Project Media:
 Screenshots: ![image](https://github.com/user-attachments/assets/1ecb2da6-c8da-4acc-8065-05a2bc962d64)
 ![image](https://github.com/user-attachments/assets/7247f9e4-6e87-4595-9ac5-54d56a9b7f35)
 ![image](https://github.com/user-attachments/assets/2e896590-0acd-4890-9db6-3e1e9dcff6e2)
